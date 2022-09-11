@@ -164,6 +164,11 @@ server <- function(input, output) {
     }
   })
 
+  autoInvalidate <- reactiveTimer(10000)
+  observe({
+    autoInvalidate()
+    cat(".")
+  })
 
 
 
