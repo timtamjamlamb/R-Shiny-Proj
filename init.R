@@ -6,7 +6,7 @@
 my_packages = c("shiny", "stopwords",
                 "tokenizers", "SnowballC",
                 "tidyverse", "syn",
-                "wordcloud", "tm",
+                "wordcloud", "tm"
                 )
 
 install_if_missing = function(p) {
